@@ -1,4 +1,4 @@
-#define NOMINMAX
+п»ї#define NOMINMAX
 
 #include <Windows.h>
 #include <iostream>
@@ -12,15 +12,15 @@
 #include "D2.h"
 #include "D3.h"
 
-//Вариант-21
+//Р’Р°СЂРёР°РЅС‚-21
 
 void WorkWithB1()
 {
 
 	int value{};
 
-	std::cout << "Создание объекта класса B1" << std::endl;
-	std::cout << "Введите целое число для объекта: ";
+	std::cout << "РЎРѕР·РґР°РЅРёРµ РѕР±СЉРµРєС‚Р° РєР»Р°СЃСЃР° B1" << std::endl;
+	std::cout << "Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ РґР»СЏ РѕР±СЉРµРєС‚Р°: ";
 	std::cin >> value;
 	std::cout << std::endl;
 
@@ -33,8 +33,8 @@ void WorkWithB2()
 
 	int value{};
 
-	std::cout << "Создание объекта класса B2" << std::endl;
-	std::cout << "Введите целое число для объекта: ";
+	std::cout << "РЎРѕР·РґР°РЅРёРµ РѕР±СЉРµРєС‚Р° РєР»Р°СЃСЃР° B2" << std::endl;
+	std::cout << "Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ РґР»СЏ РѕР±СЉРµРєС‚Р°: ";
 	std::cin >> value;
 	std::cout << std::endl;
 
@@ -48,16 +48,16 @@ void WorkWithD1()
 	int innerValue{};
 	int valueB1{};
 
-	std::cout << "Создание объекта класса D1" << std::endl;
-	std::cout << "Введите целое число для поля объекта: ";
+	std::cout << "РЎРѕР·РґР°РЅРёРµ РѕР±СЉРµРєС‚Р° РєР»Р°СЃСЃР° D1" << std::endl;
+	std::cout << "Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ РґР»СЏ РїРѕР»СЏ РѕР±СЉРµРєС‚Р°: ";
 	std::cin >> innerValue;
 	std::cout << std::endl;
 
-	std::cout << "Введите целое число для B1: ";
+	std::cout << "Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ РґР»СЏ B1: ";
 	std::cin >> valueB1;
 	std::cout << std::endl;
 
-	std::cout << "Иерархия классов: " << std::endl;
+	std::cout << "РРµСЂР°СЂС…РёСЏ РєР»Р°СЃСЃРѕРІ: " << std::endl;
 
 	D1 objD1{ innerValue, valueB1 };
 
@@ -70,20 +70,20 @@ void WorkWithD2()
 	int valueB1{};
 	int valueB2{};
 
-	std::cout << "Создание объекта класса D2" << std::endl;
-	std::cout << "Введите целое число для поля объекта: ";
+	std::cout << "РЎРѕР·РґР°РЅРёРµ РѕР±СЉРµРєС‚Р° РєР»Р°СЃСЃР° D2" << std::endl;
+	std::cout << "Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ РґР»СЏ РїРѕР»СЏ РѕР±СЉРµРєС‚Р°: ";
 	std::cin >> innerValue;
 	std::cout << std::endl;
 
-	std::cout << "Введите целое число для B1: ";
+	std::cout << "Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ РґР»СЏ B1: ";
 	std::cin >> valueB1;
 	std::cout << std::endl;
 
-	std::cout << "Введите целое число для B2";
+	std::cout << "Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ РґР»СЏ B2";
 	std::cin >> valueB2;
 	std::cout << std::endl;
 
-	std::cout << "Иерархия классов: " << std::endl;
+	std::cout << "РРµСЂР°СЂС…РёСЏ РєР»Р°СЃСЃРѕРІ: " << std::endl;
 
 	D2 objD2{ innerValue, valueB1, valueB2 };
 
@@ -98,28 +98,28 @@ void WorkWithD3()
 	int valueD1{};
 	int valueD2{};
 
-	std::cout << "Создание объекта класса D3" << std::endl;
-	std::cout << "Введите целое число для поля объекта: ";
+	std::cout << "РЎРѕР·РґР°РЅРёРµ РѕР±СЉРµРєС‚Р° РєР»Р°СЃСЃР° D3" << std::endl;
+	std::cout << "Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ РґР»СЏ РїРѕР»СЏ РѕР±СЉРµРєС‚Р°: ";
 	std::cin >> innerValue;
 	std::cout << std::endl;
 
-	std::cout << "Введите целое число для D1: ";
+	std::cout << "Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ РґР»СЏ D1: ";
 	std::cin >> valueD1;
 	std::cout << std::endl;
 
-	std::cout << "Введите целое число для D2: ";
+	std::cout << "Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ РґР»СЏ D2: ";
 	std::cin >> valueD2;
 	std::cout << std::endl;
 
-	std::cout << "Введите целое число для B1: ";
+	std::cout << "Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ РґР»СЏ B1: ";
 	std::cin >> valueB1;
 	std::cout << std::endl;
 
-	std::cout << "Введите целое число для B2: ";
+	std::cout << "Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ РґР»СЏ B2: ";
 	std::cin >> valueB2;
 	std::cout << std::endl;
 
-	std::cout << "Иерархия классов: " << std::endl;
+	std::cout << "РРµСЂР°СЂС…РёСЏ РєР»Р°СЃСЃРѕРІ: " << std::endl;
 
 	D3 objD3{innerValue, valueD1, valueD2, valueB1, valueB2};
 
@@ -133,19 +133,19 @@ void main()
 
 	int choice{-1};
 
-	std::cout << "Вариант наследования 21" << std::endl;
+	std::cout << "Р’Р°СЂРёР°РЅС‚ РЅР°СЃР»РµРґРѕРІР°РЅРёСЏ 21" << std::endl;
 
 	while (choice != 0)
 	{
 
-		std::cout << "Выберите действие: " << std::endl;
-		std::cout << "0 - Выйти из программы;" << std::endl;
-		std::cout << "1 - Создать объект класса В1;" << std::endl;
-		std::cout << "2 - Создать объект класса B2;" << std::endl;
-		std::cout << "3 - Создать объект класса D1;" << std::endl;
-		std::cout << "4 - Создать объект класса D2;" << std::endl;
-		std::cout << "5 - Создать объект класса D3." << std::endl;
-		std::cout << "Введите номер действия: ";
+		std::cout << "Р’С‹Р±РµСЂРёС‚Рµ РґРµР№СЃС‚РІРёРµ: " << std::endl;
+		std::cout << "0 - Р’С‹Р№С‚Рё РёР· РїСЂРѕРіСЂР°РјРјС‹;" << std::endl;
+		std::cout << "1 - РЎРѕР·РґР°С‚СЊ РѕР±СЉРµРєС‚ РєР»Р°СЃСЃР° Р’1;" << std::endl;
+		std::cout << "2 - РЎРѕР·РґР°С‚СЊ РѕР±СЉРµРєС‚ РєР»Р°СЃСЃР° B2;" << std::endl;
+		std::cout << "3 - РЎРѕР·РґР°С‚СЊ РѕР±СЉРµРєС‚ РєР»Р°СЃСЃР° D1;" << std::endl;
+		std::cout << "4 - РЎРѕР·РґР°С‚СЊ РѕР±СЉРµРєС‚ РєР»Р°СЃСЃР° D2;" << std::endl;
+		std::cout << "5 - РЎРѕР·РґР°С‚СЊ РѕР±СЉРµРєС‚ РєР»Р°СЃСЃР° D3." << std::endl;
+		std::cout << "Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ РґРµР№СЃС‚РІРёСЏ: ";
 		std::cin >> choice;
 		std::cout << std::endl;
 

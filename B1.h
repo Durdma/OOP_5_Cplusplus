@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 
 #include <iostream>
 
@@ -14,7 +14,7 @@ public:
 	B1(int);
 	~B1();
 
-	void show(){ std::cout << std::endl; std::cout << "Çíà÷åíèå îáúåêòà êëàññà B1: " << m_member << std::endl; };
+	void show(){ std::cout << std::endl; std::cout << "Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð¾Ð±ÑŠÐµÐºÑ‚Ð° ÐºÐ»Ð°ÑÑÐ° B1: " << m_member << std::endl; };
 
 };
 
@@ -22,7 +22,7 @@ B1::B1(int value = 0): m_member{value}
 {
 	
 	std::cout << std::endl;
-	std::cout << "Ñðàáîòàë êîíñòðóêòîð B1!!!" << std::endl;
+	std::cout << "Ð¡Ñ€Ð°Ð±Ð¾Ñ‚Ð°Ð» ÐºÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€ B1!!!" << std::endl;
 	show();
 
 }
@@ -30,7 +30,7 @@ B1::B1(int value = 0): m_member{value}
 B1::~B1()
 {
 	std::cout << std::endl;
-	std::cout << "Ñðàáîòàë äèñòðóêòîð Â1!!!" << std::endl;
+	std::cout << "Ð¡Ñ€Ð°Ð±Ð¾Ñ‚Ð°Ð» Ð´Ð¸ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€ Ð’1!!!" << std::endl;
 	std::cout << std::endl;
 
 }
